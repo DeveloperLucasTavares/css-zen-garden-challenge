@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+.page-wrapper {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(8, 3, 38);
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+header {
+    width: 50%;
+    height: 100vh;
+    background-image: url(https://i.postimg.cc/3JRwsWy9/css-zen-garden.png);
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-repeat: no-repeat;
+}
+
+header > h1 {
+    margin-bottom: 1rem;
+    text-align:left;
+    font-family: Creepster, Arial, sans-serif;
+    text-shadow: 4px 15px rgb(45, 45, 45);
+    font-size: 8rem;
+    width: 50%;
+    color: #12aac5;
+}
+
+header > h2 {
+    margin-left: -2rem;
+    font-family: Creepster, Arial, sans-serif;
+    text-shadow: 4px 15px rgb(45, 45, 45);
+    font-size: 4rem;
+    width: 80%;
+    text-align:center;
+    color: white;
+}
+
+.summary {
+    background-image: url(https://i.postimg.cc/SKyQwn0x/beauty-css.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7rem;
+}
+
+.summary p {
+    margin-top: 1rem;
+    height: auto;
+    width: 12%;
+    padding: 0 1rem 0 1rem;
+    font-family: Creepster;
+    font-size: 1.3rem;
+    color: #5fbec9;
+    text-shadow: 3px 1px black;
+    background-color: rgba(0,0,0,0.4);
+    border-radius: .8rem;
+}
+
+
+.preamble {
+    background-image: url(https://i.postimg.cc/j5HT8K2r/road.jpg);
+    padding: 6rem 4rem;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.preamble h3 {
+    font-family: Creepster;
+    font-size: 3rem;
+    text-shadow: 3px 5px black;
+    color: #efefef;
+    margin-bottom: 2rem;
+}
+
+.preamble p {
+    font-family: arial;
+    font-weight: 700;
+    width: 60%;
+    height: 10rem;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 1.5rem;
+    text-shadow: 3px 2px #af537e;
+    color: rgb(255, 255, 139);
+}
+
+.preamble :nth-child(2) {
+    border-radius: .8rem .8rem 0 0;
+}
+
+.preamble :last-child {
+    border-radius: 0 0 .8rem .8rem;
+}
+.explanation {
+    background-image: url(https://i.postimg.cc/hv0SGgR0/about.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding: 7rem 9rem;
+    gap: 3rem;
+}
+
+.explanation h3 {
+    font-family: Creepster;
+    font-size: 4rem;
+    text-shadow: 3px 4px black;
+    color: #51b454;
+}
+
+.explanation p {
+    width: 40%;
+    padding: 1rem 1rem 0 1rem;
+    height: 12rem;
+    border-radius: 0.6rem 0.6rem 0 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    font-family: Arial;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.explanation :nth-child(3) {
+    margin-top: -3rem;
+    border-radius: 0 0 0.6rem 0.6rem;
+}
+
+.participation {
+    background-image: url(https://i.postimg.cc/3JK8cy2f/participation.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 5rem 10rem;
+}
+
+.participation h3 {
+    font-family: Creepster;
+    text-align: center;
+    font-size: 3.5rem;
+    text-shadow: 3px 4px black;
+    color: #ffbfad;
+    width: 40%;
+    height: 4rem;
+    background-color: rgba(0,0,0,0.7);
+    border-radius: .8rem .8rem 0 0;
+}
+
+.participation p {
+    width: 40%;
+    height: 12rem;
+    padding: 1rem 2rem 2rem 2rem;
+    background-color: rgba(0,0,0,0.7);
+    font-family: Arial;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.participation :last-child {
+    border-radius: 0 0 .8rem .8rem;
+}
+
+.benefits {
+    background-image: url(https://i.postimg.cc/BnzJbMkR/benefits.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 6rem 10rem;
+}
+
+.benefits h3 {
+    font-family: Creepster;
+    text-align: center;
+    font-size: 3.5rem;
+    text-shadow: 3px 4px black;
+    color: #ffffff;
+    width: 42%;
+    height: 4rem;
+    background-color: rgba(0,0,0,0.7);
+    border-radius: .8rem .8rem 0 0;
+}
+
+.benefits p {
+    width: 42%;
+    height: 12rem;
+    padding: 1rem 2rem 2rem 2rem;
+    background-color: rgba(0,0,0,0.7);
+    font-family: Arial;
+    font-weight: 700;
+    font-size: 1.2rem;
+    border-radius: 0 0 .8rem .8rem;
+}
+
+.requirements {
+    background-image: url(https://i.postimg.cc/43hs9pTy/requirements.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 6rem 10rem;   
+}
+
+.requirements h3 {
+    font-family: Creepster;
+    text-align: center;
+    font-size: 3.5rem;
+    text-shadow: 3px 4px black;
+    color: #ffffff;
+    width: 100%;
+    height: 4rem;
+    background-color: rgba(0,0,0,0.7);
+    border-radius: .8rem .8rem 0 0;
+}
+
+.requirements p {
+    width: 100%;
+    height: 10rem;
+    padding: 1rem 2rem 2rem 2rem;
+    background-color: rgba(0,0,0,0.7);
+    font-family: Arial;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.requirements :last-child {
+    border-radius: 0 0 .8rem .8rem;
+}
+
+footer {
+    position: absolute;
+    visibility: hidden;
+}
+
+.sidebar {
+    background-image: url(https://i.postimg.cc/L6N9KHT9/aside.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 5rem 4rem;
+}
+
+.sidebar div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.sidebar h3 {
+    font-family: Creepster;
+    text-align: center;
+    font-size: 3rem;
+    text-shadow: 3px 4px black;
+    color: #ffffff;
+    width: 50%;
+    height: 4rem;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.sidebar .design-selection :nth-child(1) {
+    border-radius: .8rem .8rem 0 0;
+}
+
+.sidebar .zen-resources :last-child {
+    border-radius: 0 0 .8rem .8rem;
+}
+
+.sidebar nav {
+    background-color: rgba(0,0,0,0.7);
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.zen-resources ul  {
+    background-color: rgba(0,0,0,0.7);
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+.sidebar a {
+    font-family: Arial;
+    text-align: center;
+    font-size: 1rem;
+    text-shadow: 3px 4px black;
+    color: #ffffff;
+    width: 50%;
+    height: 4rem;
+}

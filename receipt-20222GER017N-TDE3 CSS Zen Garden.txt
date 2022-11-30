@@ -1,0 +1,7 @@
+Envio bem-sucedido!
+Curso: 20222GER017N, [20222PSN] DESENVOLVIMENTO WEB FRONT-END
+Avaliação: TDE3: CSS Zen Garden
+
+Data de envio: 30/10/22 20:40
+Autor do envio: Lucas Tavares De Freitas
+Número de confirmação: 24333fd09cfd4836bc94012be61fbe4c
